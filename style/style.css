@@ -27,7 +27,6 @@ nav {
 .banner-section-container {
     max-width: 1920px;
     height: 650px;
-    border: 2px solid red;
     background-image: url(../assets/Hero-bg.png);
     display: flex;
     flex-direction: column;
@@ -56,4 +55,73 @@ nav {
     color: rgb(255, 255, 255);
     font-size: 15px;
     font-weight: 400;
+}
+
+.featured-section-container {
+    max-width: 1440px;
+    height: 1393px;
+    margin: 0 auto;
+    margin-top: 140px;
+}
+
+.featured-content-container {
+    width: 90%;
+    height: 1233px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+}
+
+.featured-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* banner-box */
+.banner-box-group-1 {
+    max-width: 1140px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.banner-box-group-2 {
+    max-width: 1140px;
+    height: 336px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    column-gap: 30px;
+
+}
+
+.btn-group {
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.banner-box-text-1 {
+    width: 477px;
+    height: 219px;
+
+}
+
+.banner-box-text-2 {
+    width: 477px;
+    height: 219px;
+    margin-top: 30px;
+}
+
+.banner-box-image-1 {
+    width: 259.56px;
+    height: 217.01px;
 }
