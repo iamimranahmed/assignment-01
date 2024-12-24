@@ -151,7 +151,6 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-items: center;
     margin-top: 40px;
 }
 
@@ -189,5 +188,50 @@ nav {
     width: 25%;
     height: 230px;
     padding: 20px;
+    border-radius: 10px;
+
+}
+
+.section-4 {
+    max-width: 1440px;
+    height: 313px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.support-deal-container {
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+.support-deal-container input {
+    width: 400px;
+    height: 35px;
+    justify-content: center;
+
+}
+
+#subscribe-btn {
+    width: 100px;
+    height: 35px;
+    background-color: 100px 60px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
 
 }
